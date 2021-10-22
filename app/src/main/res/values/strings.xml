@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">倾心家教</string>
+    <string name="host">http://192.168.91.1:8080</string>
+</resources>
