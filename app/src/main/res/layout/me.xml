@@ -19,7 +19,7 @@
             android:layout_gravity="center"
             android:layout_marginLeft="10dp"
             android:contentDescription="@string/app_name"
-            android:src="@drawable/hugh" />
+            android:src="@drawable/icon" />
             <TextView
                 android:id="@+id/phone_numbers"
                 android:layout_width="0dp"

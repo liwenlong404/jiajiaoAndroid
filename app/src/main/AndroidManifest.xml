@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.lanhong.qingxinjiajiao">
+    package="com.example.li.qingxinjiajiao">
 
 
     <application
@@ -11,26 +11,26 @@
         android:theme="@style/AppTheme">
         <uses-library android:name="org.apache.http.legacy" android:required="false" />
 
-        <activity android:name=".LoginActivity">
+        <activity android:name="com.example.li.qingxinjiajiao.LoginActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".RegeActivity" />
-        <activity android:name=".SucesActivity" />
-        <activity android:name=".Showtea_Activity" />
-        <activity android:name=".ShowTeaDet_Activity" />
-        <activity android:name=".SchTeAxtivity" />
-        <activity android:name=".order_teachActivity" />
-        <activity android:name=".order_suggestActivity" />
-        <activity android:name=".order_talkActivity" />
-        <activity android:name=".OrderActivity" />
-        <activity android:name=".MoneyActivity" />
-        <activity android:name=".PlantActivity" />
-        <activity android:name=".RewardActivity" />
-        <activity android:name=".SetActivity"></activity>
+        <activity android:name="com.example.li.qingxinjiajiao.RegeActivity" />
+        <activity android:name="com.example.li.qingxinjiajiao.SucesActivity" />
+        <activity android:name="com.example.li.qingxinjiajiao.Showtea_Activity" />
+        <activity android:name="com.example.li.qingxinjiajiao.ShowTeaDet_Activity" />
+        <activity android:name="com.example.li.qingxinjiajiao.SchTeAxtivity" />
+        <activity android:name="com.example.li.qingxinjiajiao.order_teachActivity" />
+        <activity android:name="com.example.li.qingxinjiajiao.order_suggestActivity" />
+        <activity android:name="com.example.li.qingxinjiajiao.order_talkActivity" />
+        <activity android:name="com.example.li.qingxinjiajiao.OrderActivity" />
+        <activity android:name="com.example.li.qingxinjiajiao.MoneyActivity" />
+        <activity android:name="com.example.li.qingxinjiajiao.PlantActivity" />
+        <activity android:name="com.example.li.qingxinjiajiao.RewardActivity" />
+        <activity android:name="com.example.li.qingxinjiajiao.SetActivity"></activity>
     </application>
 
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />

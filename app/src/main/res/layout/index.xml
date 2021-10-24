@@ -25,7 +25,7 @@
         android:layout_marginLeft="10dp"
         android:textColor="#FFFFFF"
         android:textSize="18sp"
-        android:text="赣   州" /> 
+        android:text="移 通" />
       <!-- 显示搜索框 -->
       <SearchView
         android:id="@+id/word"
